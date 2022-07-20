@@ -46,7 +46,6 @@ const App: React.FC<AppProps> = ({Component, pageProps}) => {
                 height="100%"
                 maxHeight={64}
                 objectFit="cover"
-                src={INFORMATION.banner}
               />
               <Stack
                 alignItems="center"
