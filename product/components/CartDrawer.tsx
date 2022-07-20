@@ -137,7 +137,7 @@ const CartDrawer: React.FC<Props> = ({items, onClose, onDecrement, onIncrement, 
                   as={Link}
                   colorScheme="whatsapp"
                   data-testid="complete-order"
-                  href={`https://wa.me/543413879932?text=${encodeURIComponent(text)}`}
+                  href={`https://wa.me/5492954220197?text=${encodeURIComponent(text)}`}
                   leftIcon={
                     <Image src="https://icongr.am/fontawesome/whatsapp.svg?size=24&color=ffffff" />
                   }
