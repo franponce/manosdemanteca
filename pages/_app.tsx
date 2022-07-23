@@ -41,12 +41,7 @@ const App: React.FC<AppProps> = ({Component, pageProps}) => {
         <Container backgroundColor="white" borderRadius="sm" maxWidth="container.xl" padding={4}>
           <Stack spacing={8}>
             <Stack marginBottom={4} spacing={4}>
-              <Image
-                borderRadius="lg"
-                height="100%"
-                maxHeight={64}
-                objectFit="cover"
-              />
+              <Image borderRadius="lg" height="100%" maxHeight={64} objectFit="cover" />
               <Stack
                 alignItems="center"
                 direction={{base: "column", sm: "row"}}
@@ -85,7 +80,7 @@ const App: React.FC<AppProps> = ({Component, pageProps}) => {
                       <Link key={social.name} isExternal href={social.url}>
                         <Flex
                           alignItems="center"
-                          backgroundColor="#8B77DF"
+                          backgroundColor="#FFFF00"
                           borderRadius={9999}
                           color="white"
                           height={10}
