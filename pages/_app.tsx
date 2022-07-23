@@ -80,7 +80,7 @@ const App: React.FC<AppProps> = ({Component, pageProps}) => {
                       <Link key={social.name} isExternal href={social.url}>
                         <Flex
                           alignItems="center"
-                          backgroundColor="#FFFF00"
+                          backgroundColor="#df7777"
                           borderRadius={9999}
                           color="white"
                           height={10}
